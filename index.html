@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>restful-vue</title>
+    </head>
+    <body>
+
+        <ul>
+            <update v-for="model in models" :model="model"></update>
+        </ul>
+
+        <create url="/test"></create>
+        <script src="dist/build.js"></script>
+    </body>
+</html>
