@@ -4,14 +4,13 @@ module.exports = {
         url: {
             type: String,
             default: null,
-        }
-    },
+        },
 
-    data() {
-        return {
-
-            models: [],
-
+        models: {
+            type: Array,
+            default() {
+                return [];
+            }
         }
     },
 
