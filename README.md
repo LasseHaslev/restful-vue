@@ -11,6 +11,12 @@ We help you to add new items, update items and remove them from index with simpl
 ## Usage
 To get any of the mixins just get what you want from the ```@lassehaslev/restful-vue```
 ``` js
+import Vue from 'vue'
+
+// Install plugin and dependencies
+import RestfulVue from '@lassehaslev/restful-vue';
+Vue.use( RestfulVue );
+
 // Import everything
 import { container, create, update, remove } from '@lassehaslev/restful-vue'
 
