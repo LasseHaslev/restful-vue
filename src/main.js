@@ -2,9 +2,9 @@ import Vue from 'vue'
 import Create from './Create.vue'
 import Update from './Update.vue'
 
+import RestfulVue from './RestfulVue';
 
-var VueResource = require('vue-resource');
-Vue.use(VueResource);
+Vue.use( RestfulVue );
 
 import { container, create, update, remove } from './RestfulVue'
 
