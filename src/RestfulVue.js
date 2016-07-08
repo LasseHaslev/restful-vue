@@ -15,6 +15,3 @@ export {
     UpdateModelMixin as update,
     DeleteModelMixin as remove,
 }
-// export object CreateModelMixin;
-// export UpdateModelMixin;
-// export DeleteModelMixin;

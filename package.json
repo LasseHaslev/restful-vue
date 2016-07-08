@@ -17,5 +17,10 @@
   },
   "dependencies": {
     "vue-resource": "^0.9.3"
+  },
+  "browserify": {
+      "transform": [
+          "babelify"
+      ]
   }
 }
